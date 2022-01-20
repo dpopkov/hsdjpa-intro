@@ -13,3 +13,6 @@
         * Show SQL: `spring.jpa.properties.hibernate.show_sql=true`
         * Format SQL: `spring.jpa.properties.hibernate.format_sql=true`
         * Show bind parameters: `logging.level.org.hibernate.type.descriptor.sql=trace`
+* H2 Database console ([note](https://www.notion.so/Hibernate-and-Spring-Data-JPA-c6e94f30f1c444748e55f9ee662e9955#a53241d65027457c9ec686e41bafc0ca))
+    * Configured automatically if using Developer Tools
+    * Or can be enabled in application.properties: `spring.h2.console.enabled=true`
